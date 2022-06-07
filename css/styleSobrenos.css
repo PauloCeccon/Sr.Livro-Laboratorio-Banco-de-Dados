@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+/* Header */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 8px;
+}
+
+.cabecalho-imagem{
+    height: 52px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item{
+    font-family: 'Sarala', sans-serif;
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/* Body */
+body {
+    background: linear-gradient(70.15deg, #979797 16.62%, #969696 60%);
+}
+
+.card{
+    background:  #b1b0b0 16.62% !important;
+}
+
+main{
+    width: 1000px;
+    margin-left: 13%;
+    margin-bottom: 5%;
+}
+
+/* Alinhamento das sections */
+.primeira, .segunda, .terceira{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+h1, h5{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    text-indent: 5%;
+}
+
+button{
+    text-decoration: none !important;
+    color: black !important;
+}
+
+button:hover{
+    text-decoration: underline !important;
+    color: black !important;
+}
+
+/*Footer */
+.rodape{
+    padding: 32px;
+    border-top: 0.4px solid black;
+}
+
+.rodape-imagem{
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
+
+.direitos-copyright{
+    text-align: center;
+}

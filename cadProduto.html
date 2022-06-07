@@ -1,0 +1,39 @@
+<html>
+
+    <head>
+        <meta charset="UTF-8" />
+        <title>Cadastro Produto</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" type="text/css" href="css/styleCadProduto.css" />
+    </head>
+
+    <body>
+        <div class="content"> 
+            <div id="cadastro">
+                <form method="post" action="cadProduto.php"> 
+                <h1>Cadastro Produto</h1> 
+            
+                <p> 
+                   <label for="img_prod">Imagem</label>
+                  <input id="img_prod" name="img_prod" required="required" type="file" placeholder="nada" />
+              </p>
+            
+                <p> 
+                    <label for="desc_prod">Descrição</label>
+                    <input id="desc_prod" name="desc_prod" required="required" type="text" placeholder="Revista..."/> 
+                </p>
+                
+                <p> 
+                    <label for="valor_prod">Valor</label>
+                    <input id="valor_prod" name="valor_prod" required="required" type="text" placeholder="10,00"/>
+                </p>
+                
+                <p> 
+                    <input type="submit" value="Cadastrar"/> 
+                </p>
+                
+                </form>
+            </div>
+        </div> 
+    </body>
+</html>
