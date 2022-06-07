@@ -1,0 +1,37 @@
+<html>
+	<!DOCTYPE html>
+	<head>
+	  <meta charset="UTF-8" />
+	  <title>Login</title>
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	  <link rel="stylesheet" type="text/css" href="css/styleLogin.css" />
+	</head>
+	<body>
+		<div class="content">   
+		  <!--FORMULÁRIO DE LOGIN-->
+		  <div id="login">
+			<form name="usr" method="post" action="pegaUsr.php"> 
+			  <h1>Login</h1> 
+			  <p> 
+				<label for="nome_login">Nome</label>
+				<input id="usuario_login" name="usuario_login" required="required" type="text" placeholder="ex. login"/>
+			  </p>
+			   
+			  <p> 
+				<label for="senha_login">Senha</label>
+				<input id="senha_login" name="senha_login" required="required" type="password" placeholder="ex. senha" /> 
+			  </p>
+			   
+			  <p> 
+				<input type="submit" value="Logar" /> 
+			  </p>
+			   
+			  <p class="link">
+				Ainda não tem conta?
+				<a href="cadastro.html">Cadastre-se</a>
+			  </p>
+			</form>
+		  </div>
+		</div> 
+	</body>
+  </html>
