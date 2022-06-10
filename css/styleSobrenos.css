@@ -25,6 +25,12 @@
     gap: 32px;
 }
 
+.main{
+    margin-bottom: 48px;
+    border-top: 0.2px solid black;
+    padding-top: 30px;
+}
+
 .cabecalho-menu-item{
     font-family: 'Sarala', sans-serif;
     color: black;

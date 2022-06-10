@@ -16,6 +16,11 @@
     padding: 8px;
 }
 
+.container-fluid{
+    margin-bottom: 48px;
+    border-top: 0.2px solid black;
+}
+
 .cabecalho-imagem{
     height: 52px;
 }
