@@ -37,9 +37,17 @@
     font-size: 18px;
 }
 
+.cabecalho-menu-item:hover {
+    transform: scale(1.1);
+    transition: all 0.1s;
+    border-radius: 40%;
+    color: black;
+    text-decoration: underline;
+}
+
 body {
     font-size: 100%;
-    background: linear-gradient(70.15deg, #979797 16.62%, #969696 60%);
+    background: linear-gradient(70.15deg, #719dee 16.62%, #5da8e6 60%);
 }
 
 .caixa1{

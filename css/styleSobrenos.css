@@ -38,13 +38,21 @@
     font-size: 18px;
 }
 
+.cabecalho-menu-item:hover {
+    transform: scale(1.1);
+    transition: all 0.1s;
+    border-radius: 40%;
+    color: black;
+    text-decoration: underline;
+}
+
 /* Body */
 body {
-    background: linear-gradient(70.15deg, #979797 16.62%, #969696 60%);
+    background: linear-gradient(70.15deg, #719dee 16.62%, #5da8e6 60%);
 }
 
 .card{
-    background:  #b1b0b0 16.62% !important;
+    background:  #d8d8d8 16.62% !important;
 }
 
 main{

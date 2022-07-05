@@ -21,6 +21,9 @@ $resultado_produtos = mysqli_query($conexão, $result_produtos);
 			<div class="page-header">
 				<h1>Produtos</h1>
 			</div>
+			<div class="sair-header">
+				<a href="index.html">Sair</a>
+			</div>
 			<div class="row">
 				<?php while($rows_produtos = mysqli_fetch_assoc($resultado_produtos)){ ?>
 					<div class="col-sm-6 col-md-4">

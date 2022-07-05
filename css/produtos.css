@@ -1,6 +1,6 @@
 body {
     font-size: 100%;
-    background: linear-gradient(70.15deg, #979797 16.62%, #969696 60%);
+    background: linear-gradient(70.15deg, #719dee 16.62%, #5da8e6 60%);
 }
 
 .page-header{
@@ -11,3 +11,17 @@ body {
     padding: 8px;
     color: black;
 }
+
+ /*marcando os links para mudar de um formulário para outro */
+ .sair-header{
+    text-align: left;
+    color: black;
+    font-size: 22px;
+  }
+  .sair-header a:hover {
+    color:black;
+    transform: scale(1.1);
+    transition: all 0.1s;
+    border-radius: 40%;
+    text-decoration: underline;
+  }
